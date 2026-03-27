@@ -1,8 +1,13 @@
+using IPB2.HW.RestaurantOrderManagementSystem.Database.AppDbContextModels;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+// DbContext
+builder.Services.AddDbContext<AppDbContext>();
 
 builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Menu.MenuService>();
 builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Order.OrderService>();
