@@ -1,9 +1,9 @@
 using IPB2.HW.RestaurantOrderManagementSystem.Database.AppDbContextModels;
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Menu;
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Order;
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Payment;
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Kitchen;
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Report;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Menu;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Order;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Payment;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Kitchen;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Report;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -9,11 +9,11 @@ builder.Services.AddControllers();
 // DbContext
 builder.Services.AddDbContext<AppDbContext>();
 
-builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Menu.MenuService>();
-builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Order.OrderService>();
-builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Payment.PaymentService>();
-builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Kitchen.KitchenService>();
-builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Report.ReportService>();
+builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Menu.MenuService>();
+builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Order.OrderService>();
+builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Payment.PaymentService>();
+builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Kitchen.KitchenService>();
+builder.Services.AddScoped<IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Report.ReportService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

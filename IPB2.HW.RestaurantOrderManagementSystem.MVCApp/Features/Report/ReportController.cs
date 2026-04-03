@@ -1,4 +1,4 @@
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Report;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Report;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IPB2.HW.RestaurantOrderManagementSystem.MVCApp.Features.Report

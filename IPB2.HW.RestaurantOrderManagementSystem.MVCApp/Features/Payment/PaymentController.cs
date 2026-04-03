@@ -1,5 +1,5 @@
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Order;
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Payment;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Order;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Payment;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IPB2.HW.RestaurantOrderManagementSystem.MVCApp.Features.Payment

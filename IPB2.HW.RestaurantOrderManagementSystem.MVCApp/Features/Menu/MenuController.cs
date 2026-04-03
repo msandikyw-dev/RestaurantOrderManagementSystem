@@ -1,4 +1,4 @@
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Menu;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Menu;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IPB2.HW.RestaurantOrderManagementSystem.MVCApp.Features.Menu

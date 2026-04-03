@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IPB2.HW.RestaurantOrderManagementSystem.Database\IPB2.HW.RestaurantOrderManagementSystem.Database.csproj" />
+    <ProjectReference Include="..\IPB2.HW.RestaurantOrderManagementSystem.Domain\IPB2.HW.RestaurantOrderManagementSystem.Domain.csproj" />
   </ItemGroup>
 	
 </Project>

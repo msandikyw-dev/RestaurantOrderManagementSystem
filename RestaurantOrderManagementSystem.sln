@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.HW.RestaurantOrderMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.HW.RestaurantOrderManagementSystem.MVCApp", "IPB2.HW.RestaurantOrderManagementSystem.MVCApp\IPB2.HW.RestaurantOrderManagementSystem.MVCApp.csproj", "{E7E5809C-7D1E-4128-9016-22B3C15F4D23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.HW.RestaurantOrderManagementSystem.Domain", "IPB2.HW.RestaurantOrderManagementSystem.Domain\IPB2.HW.RestaurantOrderManagementSystem.Domain.csproj", "{B8179E9D-0AC0-4512-A5E3-74A5ADDD1DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.HW.RestaurantOrderManagementSystem.HttpClient", "IPB2.HW.RestaurantOrderManagementSystem.HttpClient\IPB2.HW.RestaurantOrderManagementSystem.HttpClient.csproj", "{442E48FD-9858-422D-820D-6A2D6E1BC5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{E7E5809C-7D1E-4128-9016-22B3C15F4D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7E5809C-7D1E-4128-9016-22B3C15F4D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7E5809C-7D1E-4128-9016-22B3C15F4D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8179E9D-0AC0-4512-A5E3-74A5ADDD1DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8179E9D-0AC0-4512-A5E3-74A5ADDD1DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8179E9D-0AC0-4512-A5E3-74A5ADDD1DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8179E9D-0AC0-4512-A5E3-74A5ADDD1DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442E48FD-9858-422D-820D-6A2D6E1BC5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442E48FD-9858-422D-820D-6A2D6E1BC5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442E48FD-9858-422D-820D-6A2D6E1BC5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442E48FD-9858-422D-820D-6A2D6E1BC5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

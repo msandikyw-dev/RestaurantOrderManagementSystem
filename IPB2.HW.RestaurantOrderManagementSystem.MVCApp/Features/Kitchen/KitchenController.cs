@@ -1,4 +1,4 @@
-using IPB2.HW.RestaurantOrderManagementSystem.WebApiApp.Features.Kitchen;
+using IPB2.HW.RestaurantOrderManagementSystem.Domain.Features.Kitchen;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IPB2.HW.RestaurantOrderManagementSystem.MVCApp.Features.Kitchen
